@@ -1,0 +1,1 @@
+export const getTotCalories = todaysFood => todaysFood.reduce((acc, val) => (acc += parseInt(val.calories)), 0)
